@@ -17,7 +17,7 @@ export const Login =({open,onClose}) =>{
         event.preventDefault();
        try
        {
-        const response = axios.get(`http://localhost:5047/api/Login/GetLogin?username=${username}&Password=${password}`)
+        const response = axios.get(`http://localhost:5077/api/Login/GetLogin?username=${username}&Password=${password}`)
         setUsers((await response).data)
        
 
