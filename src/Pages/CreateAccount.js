@@ -10,7 +10,7 @@ export const CreateAccount =() =>{
 
     const register = async() =>{
         try{
-            const response = await axios.post("http://localhost:5047/api/Reg/RegisterUser",{
+            const response = await axios.post("http://localhost:5088/api/Reg/RegisterUser",{
                 FirstName:fname,
                 LastName:lname,
                 UserName:username,
